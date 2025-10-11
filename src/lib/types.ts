@@ -7,7 +7,7 @@ export interface Character {
 	prompts: {
 		tiny: string; // 50 chars
 		short: string; // 500 chars
-		medium: string; // 5000 chars
-		long: string; // 50000 chars
+		medium: string; // 2000 chars
+		long: string; // 15000 chars
 	};
 }

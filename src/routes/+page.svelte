@@ -65,8 +65,8 @@
 		const labels = {
 			tiny: '~50 chars',
 			short: '~500 chars',
-			medium: '~5K chars',
-			long: '~50K chars'
+			medium: '~2K chars',
+			long: '~15K chars'
 		};
 		return labels[length];
 	}

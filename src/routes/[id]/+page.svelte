@@ -14,8 +14,8 @@
 	const lengths: { key: PromptLength; label: string; description: string }[] = [
 		{ key: 'tiny', label: 'Tiny', description: '~50 chars - Minimal identification' },
 		{ key: 'short', label: 'Short', description: '~500 chars - Brief overview' },
-		{ key: 'medium', label: 'Medium', description: '~5K chars - Detailed summary' },
-		{ key: 'long', label: 'Long', description: '~50K chars - Complete persona' }
+		{ key: 'medium', label: 'Medium', description: '~2K chars - Detailed summary' },
+		{ key: 'long', label: 'Long', description: '~15K chars - Complete persona' }
 	];
 
 	function copyToClipboard(text: string) {
