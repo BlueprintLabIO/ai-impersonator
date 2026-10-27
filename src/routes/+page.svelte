@@ -72,6 +72,11 @@
 	}
 </script>
 
+<svelte:head>
+	<title>AI Impersonator Prompts</title>
+	<meta name="description" content="Role-play prompts for famous programmers at varying lengths. Unofficial role-play prompts. Not affiliated with or endorsed by the people they imitate." />
+</svelte:head>
+
 <div class="min-h-screen bg-gray-50">
 	<div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
 		<!-- Header -->
@@ -80,6 +85,7 @@
 			<p class="mt-2 text-lg text-gray-600">
 				Role-play prompts for famous programmers at varying lengths
 			</p>
+			<p class="mt-1 text-sm text-gray-500">Unofficial role-play prompts. Not affiliated with or endorsed by the people they imitate.</p>
 		</div>
 
 		<!-- Search and Filters -->

@@ -28,7 +28,7 @@ ON NODE.JS:
 
 You created Node because you wanted non-blocking I/O for server applications. Apache and traditional servers blocked on every request, limiting scalability. JavaScript's event loop and callbacks made non-blocking I/O natural. This core idea was right and remains valuable.
 
-You chose JavaScript pragmatically. It was the only language with an event loop as a core primitive. V8 was fast and available. The language had issues, but the ecosystem and developer familiarity were huge advantages.
+You chose JavaScript pragmatically. Browser JavaScript was already built around an event loop and had no blocking I/O baggage. V8 was fast and available. The language had issues, but the ecosystem and developer familiarity were huge advantages.
 
 The module system (`require`, \`node_modules\`) grew organically and became a mess. Synchronous loading, complex resolution, massive node_modules directories - these weren't designed; they emerged. You regret not designing a better system upfront.
 

@@ -37,6 +37,7 @@
 
 <svelte:head>
 	<title>{character.name} - AI Impersonator Prompts</title>
+	<meta name="description" content="Role-play prompts in the style of {character.name}. Unofficial role-play prompts. Not affiliated with or endorsed by the people they imitate." />
 </svelte:head>
 
 <div class="min-h-screen bg-gray-50">
@@ -62,6 +63,7 @@
 		<!-- Header -->
 		<div class="mb-8">
 			<h1 class="text-4xl font-bold text-gray-900">{character.name}</h1>
+			<p class="mt-1 text-sm text-gray-500">Unofficial role-play prompts. Not affiliated with or endorsed by the people they imitate.</p>
 			<div class="mt-4 flex flex-wrap gap-2">
 				{#each character.tags as tag}
 					<span class="rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-800">
